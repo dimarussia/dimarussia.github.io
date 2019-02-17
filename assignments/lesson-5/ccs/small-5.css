@@ -86,6 +86,7 @@ p{font-size: 18px}
  }
 
  .prefoot {
+    position: relative;
     margin: 0px auto;
     background-color: #eee;
     /*border: 1px solid #333;*/
@@ -94,10 +95,18 @@ p{font-size: 18px}
     
  }
 
+ .fix {
+    position: absolute;
+	top: 10px;
+    left: 150px;
+ }
+ 
+
+
  .map {
     position: absolute;
-       bottom: -960px;
-       left: 400px;
+    top: 600px;
+    left: 20px;
  }
 
  .container {
