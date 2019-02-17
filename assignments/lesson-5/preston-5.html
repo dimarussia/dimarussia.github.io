@@ -4,13 +4,9 @@
 		<meta charset="utf-8">
         <title>Preston-5</title>
         <link href="ccs/normalized.css"
-        <link href="css/large-5.css" rel="stylesheet">
-        <link href="css/small-5.css" rel="stylesheet">
+		<link href="css/large-5.css" rel="stylesheet">
+        <link href="ccs/small-5.css" rel="stylesheet">
 		<style>
-			nav {
-                width: 100%; height: 100px;
-                background: rgb(41, 39, 39);
-            }
 			a:link {
 			 color: #0000d0; /* Link's colors */
 			}
@@ -24,8 +20,9 @@
 				width: 100%; height: 30px; background: rgb(81, 89, 214);
 			}
 			body {
-				width: 100%; height: 30px; background: gray;
+				width: 100%; background:yellow;
 			}
+			
 			li {
 				display: inline;
 				color: white;
@@ -33,20 +30,11 @@
 				padding: 14px 16px;
   				text-decoration: none;}
 			
-			.container {
-				width:100%; height: 50px; background: whitesmoke;
-			}
+			
 			.nav {
 				width:100%; height: 50px; background: whitesmoke; align-content: center;
 			}
-			li {                
- 			 color: white;
-  			text-align: center;
-  			padding: 14px 16px;
-  			text-decoration: none;}
-			h1 {
-				font-family: cursive; font-size: 2em; padding: 0,5em;
-			}
+			
 		   </style>
 	</head>
 	<body>
@@ -54,7 +42,7 @@
 			<header>
 				<img src="images/111.png" alt="ambrella" width="200" height="200" align="left" vspace="10" hspace="140";>
 				<h1>PGD2019</h1>
-				<h5>Еhey say there is no winter in Africa. Lie...</h5>
+				<h5>They say there is no winter in Africa. Lie...</h5>
 				
 		</header> 
 			<div class="nav">
@@ -69,27 +57,85 @@
 			</div>
 	<main>
 		<h2>Preston Idaho</h2>
-		<div class="here">
-				<Img src="images/seasons.png" alt="seasons" width="100%" height="400">
-					<section class="weather">
-						<h3>Weather Summary</h3>
-						<p>Currently: <span id=value1>Sunny</span></p>
-						<p>Hight: <span id=value2>76 F</span></p>
-						<p>Wind Chill: <span id=value3>78 F</span></p>
-						<p>Humidity: <span id=value4>69%</span></p>
-						<p>Wind Speed: <span id=value5>5 mph</span></p>
+		<div class="herediv">
+			<div class="here-ph"><Img src="images/seasons.png" alt="seasons" width="960px" height="350px"></div>
+			<section class = "Weathersummary" style="opacity:0.75;filter:alpha(opacity=75)">
+					<h3>Weather Summary</h3>
+					<p>Currently: <span id=value1>Sunny</span></p>
+					<p>Hight: <span id=value2>76 F</span></p>
+					<p>Wind Chill: <span id=value3>78 F</span></p>
+					<p>Humidity: <span id=value4>69%</span></p>
+					<p>Wind Speed: <span id=value5>5 mph</span></p>
+			</section>
 					
-					</section>
 		</div>
-	</main>
-				<!--<div class="section">
-				<Img src="images/seasons.png" alt="seasons" width="100%" height="400";>
-					<span>Summary</span> 
-				</div>-->
+	
+		<div class="forecast">
+		<H3><br><br><br>Five days forecast</H3>
+		<table border="7" align="center" bgcolor="white" bordercolor="blue">
+
+				<!--<caption>Five days forecast</caption>-->
+
+
+			<tr>
+			
+			<th>Wed</th><th>Thu</th><th>Fri</th><th>Sut</th><th>Sun</th>
+			
+			</tr>
+			
+			<tr>
+			
+			<td><img src="images/sun.png" alt="sun" width="50px" height="50px"></td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td>
+			
+			</tr>
+			
+			<tr>
+			
+			<td>+3</td><td>+5</td><td>+6</td><td>-7</td><td>-4</td>
+			
+			</tr>
+			
+			</table>
+		</div>
+
+	<div class="text">
+			<!--<p>Take me on an adventure<br>
+			Let it be a golden one.<br>
+			I don't know much about the weather<br>
+			So meet me in the morning sun<br>
+			(Tom Rosenthal - About The Weather)
+			</p>-->
+			<div class="textpict">
+				<Img src="images/stones.png" alt="stones" width="960px" height="350px">
+			</div>
+			<section class="song">
+					<p><font size="5" color="darkblue" face="Arial"><b> Take me on an adventure<br>
+						Let it be a golden one.<br>
+						I don't know much about the weather<br>
+						So meet me in the morning sun<br>
+						(Tom Rosenthal - About The Weather)
+					</b>
+					</font>
+						</p>
+			</section>
+	</div>
+
+			<div class="prefoot">
+				<p><strong>The weather site</strong></p>
+				30 N 1st E<br>
+				Preston, ID 83263<br>
+				Phone: 999 999 9999<br>
+				Email: PGD2019.org
+
+				<section class="map">
+						<Img src="images/map.PNG" alt="map" width="200px" height="230px">
+				</section>
+			</div>
+			</main>
+				
 			<footer>
 				Copyright PGD2019
 			</footer>
-        </div>
-        </div>
+        
 	</body>
 </html>
