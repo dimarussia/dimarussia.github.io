@@ -49,6 +49,7 @@ p{font-size: 18px}
     height: 300px;
 }
 .here-ph {
+    position: relative;
     margin: 10px auto;
     background-color: #eee;
     border: 1px solid #333;
@@ -113,3 +114,15 @@ p{font-size: 18px}
      padding: 1px;
     
  }
+
+ 
+ main figure .resized {
+    width: 100%;
+    margin: 0 0 0 2%;
+ }
+
+.resized {
+    position: absolute;
+    left: -40px;
+    top: -16px;
+}
