@@ -1,0 +1,115 @@
+
+body {
+    /*background-color: #bbb;*/
+    /*background-color: rgb(108, 134, 206);*/
+    /*border: 50px solid #bbb;*/
+    /*box-shadow: 0 0 30px #777;*/
+    text-align: center;
+    display: inline-block;
+}
+
+header {color: rgb(0, 6, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /*margin: 1px auto;*/
+    /*border: 1px solid #bbb;*/
+    /*box-shadow: 0 0 30px #777;*/
+    text-align: center;
+    background-color: yellowgreen;
+    font-size: 40px;
+    
+
+}
+
+header img, .headings {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    /*margin: 10px;*/
+}
+/*p {font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    weight: bold}*/
+li {font-family: fantasy;
+    font-size: 30px;
+   }
+h1 {font-family: monospace;}
+div {font-family: cursive;
+    color: mediumblue;}
+p{font-size: 18px}
+    .active {
+        background: #5fd35f;
+        text-decoration: underline;
+      }
+
+.herediv {
+    margin: 10px auto;
+    position: relative;
+    border: 1 px dashed cyan; 
+    width: 960px;
+    height: 300px;
+}
+.here-ph {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #333;
+    width: 100%;
+    height: 350px;
+}
+
+.Weathersummary {
+ position: absolute;
+	top: 20px;
+	left: 20px;
+	background: radial-gradient(#eee, yellow);
+	border: 1px solid #000;
+	padding: 1.5rem;
+    box-shadow: 0 0 30px #fff;
+ }
+
+ .text {
+    margin: 50px auto;
+    position: relative;
+    border: 1 px  black; 
+    width: 960px;
+    height: 350px;
+    
+ }
+
+ .song {
+    position: absolute;
+       bottom: 10px;
+       right: 20px;
+       background: radial-gradient(#eee, transparent);
+       /*border: 1px solid rgb(248, 245, 245);*/
+       padding: 1.5rem;
+       box-shadow: 0 0 90px #fff;
+ }
+
+ .prefoot {
+    position: relative;
+    margin: 0px auto;
+    background-color: #eee;
+    /*border: 1px solid #333;*/
+    width: 100%;
+    height: 250px;
+    
+ }
+
+ .fix {
+    position: absolute;
+	top: 10px;
+    left: 150px;
+ }
+ 
+
+
+ .map {
+    position: absolute;
+    top: 600px;
+    left: 20px;
+ }
+
+ .container {
+     padding: 1px;
+    
+ }
