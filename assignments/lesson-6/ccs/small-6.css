@@ -112,6 +112,7 @@ p{font-size: 18px}
 
  .container {
      padding: 1px;
+     display: inline-block;
     
  }
 
