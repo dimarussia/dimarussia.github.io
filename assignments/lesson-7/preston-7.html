@@ -8,6 +8,8 @@
 		<link href="ccs/small-7.css" rel="stylesheet">
 		<link href="js/time.js">
 		<link href="js/hamburger.js">
+		<script src="js/windchill.js">
+		</script>
 		<style>
 			a:link {
 			 color: #0000d0; /* Link's colors */
@@ -42,10 +44,11 @@
 	<body>
 		<div class="conta">
 			<header>
-				<img src="images/111.png" alt="ambrella" width="200" height="200" align="left" vspace="10" hspace="140";>
-				<h1>PGD2019</h1>
-				<h5>They say there is no winter in Africa. Lie...</h5>
-				
+				<img src="images/111.png" alt="ambrella" width="100" height="100" align="left" vspace="20" hspace="100";>
+					<div>
+				<h3>PGD2019</h3>
+				<p>They say there is no winter in Africa. Lie...</p>
+				  </div class=head>
 		</header> 
 			<nav>
 				<ul class="navigation">	
@@ -90,13 +93,14 @@
 			<section class = "Weathersummary" style="opacity:0.75;filter:alpha(opacity=75)">
 					<h3>Weather Summary</h3>
 					<p>Currently: <span id=value1>Sunny</span></p>
-					<p>Hight: <span id=value2>76 F</span></p>
-					<p>Wind Chill: <span id=value3>78 F</span></p>
+					<p>Hight: <span id=value2>76</span>F</p>
+					<p>Wind Chill: <span id=value3><div id='output'></div></span></p>
+						
 					<p>Humidity: <span id=value4>69%</span></p>
+					
 					<p>Wind Speed: <span id=value5>5 mph</span></p>
 			</section>
-					
-		</div>
+				</div>
 	
 		<div class="forecast">
 		<H3><br><br><br>Five days forecast</H3>
@@ -134,7 +138,7 @@
 			(Tom Rosenthal - About The Weather)
 			</p>-->
 			<div class="textpict">
-				<Img src="images/resized stones png.png" alt="stones" width="960px" height="350px">
+				<Img src="images/resized stones png.png" alt="stones" width="960px" height="350px" class="stones">
 			</div>
 			<section class="song">
 					<p><font size="5" color="darkblue" face="Arial"><b> Take me on an adventure<br>
@@ -149,16 +153,13 @@
 	</div>
 
 			<div class="prefoot">
-				<p><strong>The weather site</strong></p>
+				<p><strong>The weather site</strong><Img src="images/map.PNG" alt="map" width="200px" height="230px" class="map"><br>
 				30 N 1st E<br>
 				Preston, ID 83263<br>
 				Phone: 999 999 9999<br>
-				Email: PGD2019.org
-
-				<div class="fix"><Img src="images/map.PNG" alt="map" width="200px" height="230px"></div>
-
-				
-			</div>
+				Email: PGD2019.org</p>
+				</div>
+			
 			</main>
 				
 			<footer>

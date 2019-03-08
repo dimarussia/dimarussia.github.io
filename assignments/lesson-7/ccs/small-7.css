@@ -8,23 +8,29 @@ body {
     display: inline-block;
 }
 
-header {color: rgb(0, 6, 8);
-    font-family: Arial, Helvetica, sans-serif;
+header {
+    color: rgb(0, 6, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     /*margin: 1px auto;*/
     /*border: 1px solid #bbb;*/
     /*box-shadow: 0 0 30px #777;*/
     text-align: center;
-    background-color: yellowgreen;
-    font-size: 40px;
-    
-
+    width: 100%; height: 130px; background-color: rgb(205, 233, 149);
+    font-size: 30px;
+    padding: 15px;
+    width: 100%;
+    height: auto;
 }
+
+
 
 header img, .headings {
     display: inline-block;
     /*vertical-align: middle;*/
     /*margin: 10px;*/
+   
+   
 }
 /*p {font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +50,7 @@ p{font-size: 18px}
 .herediv {
     margin: 10px auto;
     position: relative;
-    border: 1 px dashed cyan; 
+    /*border: 1 px dashed cyan;*/
     width: 960px;
     height: 300px;
 }
@@ -52,11 +58,11 @@ p{font-size: 18px}
     position: relative;
     margin: 10px auto;
     background-color: #eee;
-    border: 1px solid #333;
-    width: 100%;
+    /*border: 1px solid #333;*/
+    width: 960px;
     height: 350px;
 }
-
+  
 .Weathersummary {
  position: absolute;
 	top: 20px;
@@ -91,27 +97,28 @@ p{font-size: 18px}
     margin: 0px auto;
     background-color: #eee;
     /*border: 1px solid #333;*/
-    width: 100%;
-    height: 250px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 30px;
     
  }
 
  .fix {
     position: absolute;
 	top: 10px;
-    left: 150px;
+    left: 10px;
+    width: 100%;
+    height: auto;
  }
  
 
 
  .map {
-    position: absolute;
-    top: 600px;
-    left: 20px;
-    display: flex;
-  flex-direction: row;
- }
-
+        float: right; 
+        margin: 7px 30px 7px 7px;
+       }
+ 
  
 .navigation {
 	list-style-type: none;
@@ -134,12 +141,18 @@ p{font-size: 18px}
 	color: rgba(0, 0, 0, 1);
 }
 .responsive li { display: block; }
-
- .container {
+ .conta {
     display: flex;
 	flex-direction: column;
 	margin: 1rem auto;
 	max-width: 66rem;
+ }
+ .container {
+    display: flex;
+	flex-direction: column;
+	margin: 1rem auto;
+    max-width: 66rem;
+    
    
  }
  .container > section {
@@ -189,3 +202,5 @@ figcaption {font-size: .75rem;}
 	.navigation li { display: block; flex: 1 1 auto; }
 	.navigation, .container { flex-direction: row; }
 }
+
+
