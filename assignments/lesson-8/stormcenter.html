@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title><Preston-7></title>
+        <link href="ccs/normalized.css"
+		<link href="ccs/large-8.css" rel="stylesheet">
+		<link href="ccs/small-8.css" rel="stylesheet">
+		
+        <script src="js/windchill.js"></script>
+        <script type="text/javascript" src=""></script>
+		<script src="js/ajustrating.js"></script>
+		<style>
+			a:link {
+			 color: #0000d0; /* Link's colors */
+			}
+			a:visited {
+			 color: #900060; /* Visited link color */
+			}
+			a:active {
+			 color: #f00; /* Active link color */ 
+			} 
+			footer {
+				width: 100%; height: 30px; background: rgb(81, 89, 214);
+			}
+			body {
+				width: 100%; background:yellow;
+			}
+			
+			li {
+				display: inline;
+				color: white;
+  				text-align: center;
+				padding: 14px 16px;
+  				text-decoration: none;}
+			
+			
+			.nav {
+				width:100%; height: 50px; background: whitesmoke; align-content: center;
+			}
+			
+		   </style>
+	</head>
+	<body>
+		<div class="conta">
+			<header>
+				<img src="images/111.png" alt="ambrella" width="100" height="100" align="left" vspace="20" hspace="100";>
+					<div>
+				<h3>PGD2019</h3>
+				<p>They say there is no winter in Africa. Lie...</p>
+				  </div class=head>
+		</header> 
+			<nav>
+				<div clas="navigationbar">
+				<ul class="navigation">	
+					<li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#" class="link active">Preston</a></li>
+                    <li><a href="#">Soda springs</a></li>
+                    <li><a href="#">Fish haven</a></li>
+                    <li><a href="#">Storm center</a></li>
+					<li><a href="gallery-8.html">Gallery</a></li>
+				</ul>
+				</div>
+            </nav>
+            
+ <main>
+        <form action="thank.html">
+            <fieldset>
+                <h3>Contact Information</h3>
+                    Full Name:<br>
+                    <input type="text" name="fullname" required pattern="[A-Za-z].{6,}">
+                    <br><br>
+                    
+                    Email:<br>
+                    <input type="email" name="email" value="example@mail.com">
+                    <br><br>
+                    
+                    Phone Number:<br>
+                    <input type="tel" name="phonenumber" required>
+                    <br><br>
+                    
+                    Zip Code:<br>
+                    <input type="number" name="zipcode" required>
+                    <br><br>
+            </fieldset>  
+            <br>
+            <fieldset>
+                    <h3>Weather conditions</h3>
+                    Storm Date:<br>
+                    <input type="date" name="stormdate">
+                    <br><br>
+                    
+                    Storm Type:<br>
+                    <input list="stormtypes" name="stormtypes">
+                    <datalist id="stormtypes">
+                       <option value="Flash Flood">
+                       <option value="Hail">
+                       <option value="Hurricane">
+                       <option value="Thunderstorm">
+                       <option value="Tornado">
+                    </datalist>
+                    <br><br>
+                    
+                    
+                        <label>Storm Severity (1 to 10)</label>
+                    <br><br>
+                        <input type="range" id="rating" name="points" value="1" min="1" max="10" step="1"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <br><br>
+                        <span id="ratingvalue">1</span>
+                    <br><br>
+            </fieldset>  
+            <br>
+            <fieldset>
+                <h3>Location</h3>
+                  
+                    Storm Region:<br>
+                    <select>
+                        <option value="default" disabled>Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                    <br><br>
+    
+                    User In-Danger Level:<br>
+                    <div><input type="radio" id="yes" name="danger" value="yes" checked>
+                    <label for="yes">Yes</label></div>
+                    
+                    <div><input type="radio" id="maybe" name="danger" value="maybe">
+                    <label for="maybe">Maybe</label></div>
+                    
+                    <div><input type="radio" id="no" name="danger" value="no">
+                    <label for="no">No</label></div>
+                    <br><br>
+    
+                    Addition Information or Comments:<br>
+                    <textarea name="info" rows="5" cols="30"></textarea>
+                    <br><br>
+            </fieldset>
+                <br>
+                    <input type="submit" name="submit" value="Submit">
+                </form> 
+            </main>
+    <br>
+            <footer>
+                    PGD2019
+                    <p>
+                            <script type="text/javascript" src="js/time.js">
+                            </script>
+                            </p>
+                </footer>
+        </body>
+    </html>
