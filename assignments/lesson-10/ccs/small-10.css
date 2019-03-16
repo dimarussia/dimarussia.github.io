@@ -127,7 +127,7 @@ p{font-size: 18px}
     height: auto
 }
        
- 
+ /**********navigation******************************************/
  
 .navigation {
 	list-style-type: none;
@@ -150,6 +150,24 @@ p{font-size: 18px}
 	color: rgba(0, 0, 0, 1);
 }
 .responsive li { display: block; }
+
+/*
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}*/
+
+@media (min-width: 45em) {
+	.navigation li:first-child { display: none;	}
+	.navigation li { display: block; flex: 1 1 auto; }
+	.navigation, .container { flex-direction: row; }
+}
+/************************end of navigaton*************************************/
+
  .conta {
     display: flex;
 	flex-direction: column;
@@ -197,20 +215,6 @@ figcaption {font-size: .75rem;}
     top: -16px;
 }
 
-.navigation {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-@media (min-width: 45em) {
-	.navigation li:first-child { display: none;	}
-	.navigation li { display: block; flex: 1 1 auto; }
-	.navigation, .container { flex-direction: row; }
-}
 
 .stones {
     float: right; /* Выравнивание по правому краю  */ 
