@@ -161,7 +161,7 @@ p{font-size: 18px}
     justify-content: center;
 }*/
 
-@media (min-width: 45em) {
+@media (min-width: 40em) {
 	.navigation li:first-child { display: none;	}
 	.navigation li { display: block; flex: 1 1 auto; }
 	.navigation, .container { flex-direction: row; }
