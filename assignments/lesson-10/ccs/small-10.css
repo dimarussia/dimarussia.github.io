@@ -8,14 +8,14 @@ body {
     display: inline-block;
 }
 
-header {
+.conta {
     color: rgb(0, 6, 8);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     /*margin: 1px auto;*/
     /*border: 1px solid #bbb;*/
     /*box-shadow: 0 0 30px #777;*/
-    text-align: center;
+   
     width: 100%; height: 130px; background-color: rgb(205, 233, 149);
     font-size: 30px;
     padding: 15px;
