@@ -224,4 +224,27 @@ figcaption {font-size: .75rem;}
 }
 
 
-
+/************************table responsive forecast***************************/
+@media screen and (max-width: 600px) {
+    table th {
+      border: none;
+      clip: rect(0 0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      text-align: center;
+    }
+    
+    
+  }
+  /*******************end of responsive table*****************************/
