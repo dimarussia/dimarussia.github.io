@@ -37,6 +37,13 @@
 			.nav {
 				width:100%; height: 50px; background: whitesmoke; align-content: center;
 			}
+
+			table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 			
 		   </style>
 	</head>
@@ -90,39 +97,58 @@
 				</div>
 			<section class = "Weathersummary" style="opacity:0.75;filter:alpha(opacity=75)">
 					<h3>Weather Summary</h3>
-					<p>Currently: <span id="value1">Sunny</span></p>
-					<p>Hight: <span id="value2">51</span></p>
+					<p>Currently: <img id="value1" crc="" alt=""</p>
+					<p>Hight: <span id="value2"></span>&#176F</p>
 					<p>Wind Chill: <span id ="windChill"></span>&#176</p>
-					<p>Humidity: <span id="value4">69</span>%</p>
-					
+					<p>Humidity: <span id="value4"></span>%</p>
 					<p>Wind Speed: <span id="value5">5</span>mp</p>
 			</section>
 				</div>
 	
 		<div class="forecast">
 		<H3><br><br><br>Five days forecast</H3>
-		<table border="7" align="center" bgcolor="white" bordercolor="blue">
+		<table style="overflow-x:auto;" border="7" align="center" bgcolor="white" bordercolor="blue">
 
 				<!--<caption>Five days forecast</caption>-->
 
 
 			<tr>
 			
-			<th>Wed</th><th>Thu</th><th>Fri</th><th>Sut</th><th>Sun</th>
+			<th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
 			
 			</tr>
 			
 			<tr>
 			
-			<td><img src="images/sun.png" alt="sun" width="50px" height="50px"></td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td><td><img src="images/sun.png" alt="sun" width="50px" height="50px"</td>
+			<td>
+					<p id="day1"></p>
+					<img id="cc-img1" src="" alt="" width="90px" height="90px">
+			</td>
+				
+			<td>
+					<p id="day2"></p>
+					<img id="cc-img2" src="" alt="" width="90px" height="90px">
+			</td>
+			
+			<td>
+					<p id="day3"></p>
+					<img id="cc-img3" src="" alt="" width="90px" height="90px">
+			</td>
+
+			<td>
+					<p id="day4"></p>
+					<img id="cc-img4" src="" alt="" width="90px" height="90px">
+			</td>
+
+			<td>
+					<p id="day5"></p>
+					<img id="cc-img5" src="" alt="" width="90px" height="90px">
+			</td>
+			
 			
 			</tr>
 			
-			<tr>
 			
-			<td>+3</td><td>+5</td><td>+6</td><td>-7</td><td>-4</td>
-			
-			</tr>
 			
 			</table>
 		</div>
@@ -177,6 +203,8 @@
 
 			<script src="js/windchill.js"></script>
 			<script src="js/hamburger.js"></script>	
+			<script src="js/preston10api.js"></script>
+			<script src="js/5dayforecast.js"></script>
 
 	</body>
 </html>
